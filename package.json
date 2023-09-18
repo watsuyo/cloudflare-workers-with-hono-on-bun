@@ -12,5 +12,9 @@
   },
   "dependencies": {
     "hono": "^3.6.3"
+  },
+  "scripts": {
+    "start": "wrangler dev index.ts",
+    "deploy": "wrangler deploy --minify index.ts"
   }
 }
