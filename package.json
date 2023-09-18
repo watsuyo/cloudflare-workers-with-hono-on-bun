@@ -3,7 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "bun-types": "latest"
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "bun-types": "latest",
+    "wrangler": "^3.8.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
